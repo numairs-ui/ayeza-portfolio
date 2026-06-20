@@ -1,0 +1,59 @@
+# ==============================================================================
+# .geminiignore - BASELINE DE FINOPS E ARQUITETURA
+# ==============================================================================
+
+# 1. SISTEMA OPERACIONAL E IDEs
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.iml
+.gradle/
+local.properties
+.history/
+
+# 2. DEPENDÊNCIAS E ASSETS PESADOS
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+vendor/
+composer.lock
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# 3. ASSETS BINÁRIOS E MULTIMÍDIA EXTREMOS
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.ico
+*.psd
+*.fig
+*.pdf
+*.zip
+*.tar.gz
+*.woff
+*.woff2
+*.ttf
+*.mov
+*.mp4
+
+# 4. BANCOS DE DADOS E LOGS
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.sql.gz

@@ -1,0 +1,212 @@
+﻿[
+    {
+        "title":  "A note to Nani",
+        "category":  "Animation",
+        "description":  "",
+        "id":  1,
+        "imageUrl":  "assets/works/Animation/A note to Nani.mp4"
+    },
+    {
+        "title":  "Center of the Universe",
+        "category":  "Animation",
+        "description":  "",
+        "id":  2,
+        "imageUrl":  "assets/works/Animation/Center of the Universe.mp4"
+    },
+    {
+        "title":  "Crowded in Here",
+        "category":  "Animation",
+        "description":  "",
+        "id":  3,
+        "imageUrl":  "assets/works/Animation/Crowded in Here.mp4"
+    },
+    {
+        "title":  "Lazy Daze",
+        "category":  "Animation",
+        "description":  "",
+        "id":  4,
+        "imageUrl":  "assets/works/Animation/Lazy Daze.mp4"
+    },
+    {
+        "title":  "Ramzan Animation",
+        "category":  "Animation",
+        "description":  "",
+        "id":  5,
+        "imageUrl":  "assets/works/Animation/Ramzan Animation.mp4"
+    },
+    {
+        "title":  "Tera.ai Explainer Video",
+        "category":  "Animation",
+        "description":  "",
+        "id":  6,
+        "imageUrl":  "assets/works/Animation/Tera.ai Explainer Video.mp4"
+    },
+    {
+        "title":  "Remotebase Google Ad - Developer Recruitment",
+        "category":  "Digital Ads",
+        "description":  "",
+        "id":  7,
+        "imageUrl":  "assets/works/Digital Ads/Remotebase Google Ad - Developer Recruitment.JPG"
+    },
+    {
+        "title":  "Remotebase Google Ad - Hire Effective Teams",
+        "category":  "Digital Ads",
+        "description":  "",
+        "id":  8,
+        "imageUrl":  "assets/works/Digital Ads/Remotebase Google Ad - Hire Effective Teams.JPG"
+    },
+    {
+        "title":  "Remotebase Google Ad",
+        "category":  "Digital Ads",
+        "description":  "",
+        "id":  9,
+        "imageUrl":  "assets/works/Digital Ads/Remotebase Google Ad.JPG"
+    },
+    {
+        "title":  "Remotebase LinkedIn Ad - Recruitment",
+        "category":  "Digital Ads",
+        "description":  "",
+        "id":  10,
+        "imageUrl":  "assets/works/Digital Ads/Remotebase LinkedIn Ad - Recruitment.png"
+    },
+    {
+        "title":  "Remotebase LinkedIn Ad",
+        "category":  "Digital Ads",
+        "description":  "",
+        "id":  11,
+        "imageUrl":  "assets/works/Digital Ads/Remotebase LinkedIn Ad.JPG"
+    },
+    {
+        "title":  "Remotebase LnikedIn Ad",
+        "category":  "Digital Ads",
+        "description":  "",
+        "id":  12,
+        "imageUrl":  "assets/works/Digital Ads/Remotebase LnikedIn Ad.JPG"
+    },
+    {
+        "title":  "Easypaisa - No.1 Fans",
+        "category":  "Film \u0026 Scriptwriting",
+        "description":  "",
+        "id":  13,
+        "imageUrl":  "assets/works/Film \u0026 Scriptwriting/Easypaisa - No.1 Fans.mp4"
+    },
+    {
+        "title":  "Telenor - Carve the Future",
+        "category":  "Film \u0026 Scriptwriting",
+        "description":  "",
+        "id":  14,
+        "imageUrl":  "assets/works/Film \u0026 Scriptwriting/Telenor - Carve the Future.mp4"
+    },
+    {
+        "title":  "Bibliophile\u0027s Imaginarium",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  15,
+        "imageUrl":  "assets/works/Illustration/Bibliophile\u0027s Imaginarium.png"
+    },
+    {
+        "title":  "Family Portrait",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  16,
+        "imageUrl":  "assets/works/Illustration/Family Portrait.jpg"
+    },
+    {
+        "title":  "Meethi Eid II",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  17,
+        "imageUrl":  "assets/works/Illustration/Meethi Eid II.jpg"
+    },
+    {
+        "title":  "Meethi Eid",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  18,
+        "imageUrl":  "assets/works/Illustration/Meethi Eid.jpg"
+    },
+    {
+        "title":  "The Boy in the Woods - (commissioned)",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  19,
+        "imageUrl":  "assets/works/Illustration/The Boy in the Woods - (commissioned).jpg"
+    },
+    {
+        "title":  "The Panther and the Moon (comissioned)",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  20,
+        "imageUrl":  "assets/works/Illustration/The Panther and the Moon (comissioned).png"
+    },
+    {
+        "title":  "Wedding Invitation (comissioned)",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  21,
+        "imageUrl":  "assets/works/Illustration/Wedding Invitation (comissioned).jpg"
+    },
+    {
+        "title":  "Wedding Invitation II (comissioned)",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  22,
+        "imageUrl":  "assets/works/Illustration/Wedding Invitation II (comissioned).jpg"
+    },
+    {
+        "title":  "Wednesday Addams",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  23,
+        "imageUrl":  "assets/works/Illustration/Wednesday Addams.png"
+    },
+    {
+        "title":  "Women of Pakistan",
+        "category":  "Illustration",
+        "description":  "",
+        "id":  24,
+        "imageUrl":  "assets/works/Illustration/Women of Pakistan.png"
+    },
+    {
+        "title":  "CTO-Con by Remotebase",
+        "category":  "Socials",
+        "description":  "",
+        "id":  25,
+        "imageUrl":  "assets/works/Socials/CTO-Con by Remotebase.MP4"
+    },
+    {
+        "title":  "easypaisa",
+        "category":  "Socials",
+        "description":  "",
+        "id":  26,
+        "imageUrl":  "assets/works/Socials/easypaisa.jpeg"
+    },
+    {
+        "title":  "Pakistan Polio Eradication Programme",
+        "category":  "Socials",
+        "description":  "",
+        "id":  27,
+        "imageUrl":  "assets/works/Socials/Pakistan Polio Eradication Programme.mp4"
+    },
+    {
+        "title":  "Remotebase",
+        "category":  "Socials",
+        "description":  "",
+        "id":  28,
+        "imageUrl":  "assets/works/Socials/Remotebase.png"
+    },
+    {
+        "title":  "WWF-Pakistan",
+        "category":  "Socials",
+        "description":  "",
+        "id":  29,
+        "imageUrl":  "assets/works/Socials/WWF-Pakistan.jpeg"
+    },
+    {
+        "title":  "WWF-Pakistan",
+        "category":  "Socials",
+        "description":  "",
+        "id":  30,
+        "imageUrl":  "assets/works/Socials/WWF-Pakistan.png"
+    }
+]

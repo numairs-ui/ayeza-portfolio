@@ -1,0 +1,8 @@
+.DS_Store
+.gemini
+node_modules/
+.env
+
+# Large files exceeding GitHub 100MB limit
+assets/works/Film & Scriptwriting/Easypaisa - No.1 Fans.mp4
+assets/works/Film & Scriptwriting/Telenor - Carve the Future.mp4

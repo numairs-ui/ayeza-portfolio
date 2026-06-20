@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayeza Raza | Creative Strategist, Writer & Storyteller</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="site-header">
+        <div class="logo">AYEZA RAZA</div>
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay">
+        <nav class="menu-nav">
+            <a href="#about" class="menu-link">Statement</a>
+            <a href="#clients" class="menu-link">Clients</a>
+            <a href="#works" class="menu-link">Select Works</a>
+            <a href="#contact" class="menu-link">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Section 1: Hero -->
+        <section id="hero" class="section hero-section">
+            <div class="video-background-container">
+                <video autoplay loop muted playsinline>
+                    <source src="assets/videos/intro_animation.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">AYEZA RAZA</h1>
+                <h2 class="hero-subtitle">CREATIVE STRATEGIST</h2>
+                <p class="hero-tags">WRITER | STORYTELLER</p>
+                
+                <div class="scroll-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Statement -->
+        <section id="about" class="section">
+            <div class="content-container bio-content">
+                <p class="bio-text">
+                    I’m a creative who believes the best brands are built on big ideas, brought to life through thoughtful copy, art and film.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 2.5: Clients -->
+        <section id="clients" class="section clients-section">
+            <div class="container">
+                <h2>Clients</h2>
+                <div class="clients-track">
+                    <div class="client-card"><img src="assets/Logos/images.jpeg" alt="Nestlé Neafruita" class="client-logo"></div>
+                    <div class="client-card"><img src="assets/Logos/2.jpeg" alt="Nestlé Fruita Vitals" class="client-logo"></div>
+                    <div class="client-card"><img src="assets/Logos/milo-logo-png_seeklogo-287868.png" alt="Nestlé Milo" class="client-logo"></div>
+                    <div class="client-card"><img src="assets/Logos/nido.jpeg" alt="Nestlé Nido" class="client-logo"></div>
+                    <div class="client-card"><img src="assets/Logos/channels4_profile.jpg" alt="Kisan" class="client-logo"></div>
+                    <div class="client-card"><img src="assets/Logos/easypaisa.png" alt="Easypaisa" class="client-logo"></div>
+                    <div class="client-card"><img src="assets/Logos/telenor_new_lockup_black-01.png" alt="Telenor" class="client-logo"></div>
+                    <div class="client-card"><img src="assets/Logos/color-logo.png" alt="Remotebase" class="client-logo logo-large"></div>
+                    <div class="client-card"><img src="assets/Logos/7058343.546fe1c70602f.jpg" alt="Pakistan Polio Eradication" class="client-logo logo-large"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Selected Works -->
+        <section id="works" class="section works-section">
+            <div class="container">
+                <h2>Selected Works</h2>
+                
+                <nav class="works-tabs">
+                    <button class="tab-btn active" data-category="All">All</button>
+                    <button class="tab-btn" data-category="Digital Ads">Digital Ads</button>
+                    <button class="tab-btn" data-category="Socials">Socials</button>
+                    <button class="tab-btn" data-category="Film & Scriptwriting">Film & Scriptwriting</button>
+                    <button class="tab-btn" data-category="Animation">Animation</button>
+                    <button class="tab-btn" data-category="Illustration">Illustration</button>
+                </nav>
+
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Gallery items will be injected by app.js -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="site-footer">
+        <div class="footer-content">
+            <h2 class="footer-title">Let's Connect</h2>
+            <div class="footer-links">
+                <a href="mailto:ayezaraza@gmail.com" class="footer-link">ayezaraza@gmail.com</a>
+                <a href="https://wa.me/923005152655" target="_blank" class="footer-link">WhatsApp: 0300 515 2655</a>
+            </div>
+            <p class="footer-copyright">© 2026 Ayeza Raza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
