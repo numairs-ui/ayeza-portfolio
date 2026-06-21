@@ -1,4 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- iOS Video Autoplay Fallback ---
+    const heroVideo = document.getElementById('hero-video');
+    if (heroVideo) {
+        heroVideo.muted = true; // Redundant but critical for iOS
+        heroVideo.play().catch(e => console.warn('iOS Autoplay blocked (likely Low Power Mode):', e));
+        
+        // Sometimes a touch event is required to unblock iOS video
+        document.body.addEventListener('touchstart', () => {
+            if (heroVideo.paused) heroVideo.play();
+        }, { once: true });
+    }
+
     // --- Custom Cursor Logic ---
     const cursor = document.querySelector('.cursor');
     const cursorFollower = document.querySelector('.cursor-follower');
