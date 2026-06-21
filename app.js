@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const isVideo = item.imageUrl.match(/\.(mp4|mov|webm)$/i);
             const mediaHTML = isVideo 
-                ? `<video src="${item.imageUrl}" autoplay loop muted playsinline></video>`
+                ? `<video src="${item.imageUrl}" autoplay loop muted playsinline controls></video>`
                 : `<img src="${item.imageUrl}" alt="${item.title}">`;
 
             el.innerHTML = `
@@ -197,5 +197,17 @@ document.addEventListener('DOMContentLoaded', () => {
             { opacity: 0, y: 30 },
             { opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out' }
         );
+
+        // Hide custom cursor when hovering over native video controls
+        document.querySelectorAll('.gallery-item video').forEach(v => {
+            v.addEventListener('mouseenter', () => {
+                document.querySelector('.cursor').style.display = 'none';
+                document.querySelector('.cursor-follower').style.display = 'none';
+            });
+            v.addEventListener('mouseleave', () => {
+                document.querySelector('.cursor').style.display = 'block';
+                document.querySelector('.cursor-follower').style.display = 'block';
+            });
+        });
     }
 });

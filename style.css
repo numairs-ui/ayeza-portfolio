@@ -454,6 +454,10 @@ p {
     margin-bottom: 1rem;
 }
 
+.gallery-item video {
+    cursor: auto !important;
+}
+
 .gallery-item.bento-tall img,
 .gallery-item.bento-tall video {
     height: calc(100% - 60px);
