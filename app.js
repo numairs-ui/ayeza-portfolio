@@ -141,7 +141,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             portfolioData = data;
-            renderGallery('All');
+            const activeCategory = document.querySelector('.tab-btn.active').getAttribute('data-category');
+            renderGallery(activeCategory);
         })
         .catch(error => console.error('Error fetching portfolio data:', error));
 
